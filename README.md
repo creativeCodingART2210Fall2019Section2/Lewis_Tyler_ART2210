@@ -1,12 +1,10 @@
 # Lewis_Tyler_ART2210
 
-This is a sample
-
-
-This is a sample
-
-hi
-
-hi
-
-![] https://github.com/talewis98/Lewis_Tyler_ART2210/blob/master/image/image.jpg
+var var1={
+   x:100,      //use a colon, not an assignment operator
+   y:200,
+   z:50,
+   a:160,
+   b:600,
+   c:700   // no comma in the end
+ };
