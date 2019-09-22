@@ -21,7 +21,10 @@ function draw() {
     resizeCanvas(windowWidth,windowHeight);
   
  }
- 
+ line(x1, y1, x2, y2)
+
+ line(30, 20, 85, 75)
+ stroke(30, 30, 45, 45)
 
 
 }
