@@ -27,6 +27,8 @@ function draw() {
  line(30, 20, 85, 75)
  stroke(30, 30, 45, 45)
 
+}
+
 
 void setup() 
   size(200, 200);
@@ -49,11 +51,5 @@ void setup()
   // you already know how to draw ellipses!
   fill(255, 0, 0);
   noStroke();
-  for (int i = 0; i < coords.length; i += 2) {
-    ellipse(coords[i], coords[i + 1], 3, 3);
-  }
-}
+ 
 
-
-
-}
