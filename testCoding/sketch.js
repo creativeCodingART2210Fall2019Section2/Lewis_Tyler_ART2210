@@ -3,7 +3,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
 
 
-  background(255, 204, 0);
+
  
 
 }
@@ -12,11 +12,6 @@ function draw() {
  
   createCanvas(windowWidth,windowHeight);
 
-
-  void setup() 
-  size(50, 50);
-  background(255);
-  smooth();
 
   noFill();
   stroke(120);
