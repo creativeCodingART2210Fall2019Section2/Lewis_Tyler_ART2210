@@ -16,13 +16,13 @@ function draw() {
   noFill();
   stroke(120);
   beginShape();
-  curveVertex(100, 100); // the first control point
-  curveVertex(100, 100); // is also the start point of curve
-  curveVertex(150, 90);
-  curveVertex(300, 300);
-  curveVertex(100, 140);
-  curveVertex(200, 350); // the last point of curve
-  curveVertex(200, 350); // is also the last control point
+  curveVertex(174, 161); // the first control point
+  curveVertex(174, 161); // is also the start point of curve
+  curveVertex(196, 221);
+  curveVertex(231, 239);
+  curveVertex(292, 244);
+  curveVertex(327, 197); // the last point of curve
+  curveVertex(327, 197); // is also the last control point
   endShape();
 
   // Use the array to keep the code shorter;
