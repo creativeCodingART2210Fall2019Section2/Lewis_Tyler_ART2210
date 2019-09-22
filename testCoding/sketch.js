@@ -16,9 +16,9 @@ function draw() {
   noFill();
   stroke(120);
   beginShape();
-  curveVertex(40, 40); // the first control point
-  curveVertex(40, 40); // is also the start point of curve
-  curveVertex(80, 60);
+  curveVertex(100, 100); // the first control point
+  curveVertex(100, 100); // is also the start point of curve
+  curveVertex(150, 90);
   curveVertex(100, 100);
   curveVertex(60, 120);
   curveVertex(50, 150); // the last point of curve
