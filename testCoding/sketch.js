@@ -48,7 +48,7 @@ function draw() {
 
 
 beginShape();
-vertex(90)
+vertex(450)
 endShape();
 
 
