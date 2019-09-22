@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+
 
   background(255, 204, 0);
  
@@ -8,6 +8,29 @@ function setup() {
 
 function draw() {
  
+  void setup() 
+  size(200, 200);
+  background(255);
+  smooth();
+
+  noFill();
+  stroke(120);
+  beginShape();
+  curveVertex(40, 40); // the first control point
+  curveVertex(40, 40); // is also the start point of curve
+  curveVertex(80, 60);
+  curveVertex(100, 100);
+  curveVertex(60, 120);
+  curveVertex(50, 150); // the last point of curve
+  curveVertex(50, 150); // is also the last control point
+  endShape();
+
+  // Use the array to keep the code shorter;
+  // you already know how to draw ellipses!
+  fill(255, 0, 0);
+  noStroke();
+
+
   strokeWeight(4);
   fill(255, 204, 0);
 
@@ -28,28 +51,3 @@ function draw() {
  stroke(30, 30, 45, 45)
 
 }
-
-
-void setup() 
-  size(200, 200);
-  background(255);
-  smooth();
-
-  noFill();
-  stroke(0);
-  beginShape();
-  curveVertex(40, 40); // the first control point
-  curveVertex(40, 40); // is also the start point of curve
-  curveVertex(80, 60);
-  curveVertex(100, 100);
-  curveVertex(60, 120);
-  curveVertex(50, 150); // the last point of curve
-  curveVertex(50, 150); // is also the last control point
-  endShape();
-
-  // Use the array to keep the code shorter;
-  // you already know how to draw ellipses!
-  fill(255, 0, 0);
-  noStroke();
- 
-
