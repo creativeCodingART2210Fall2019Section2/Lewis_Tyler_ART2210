@@ -8,8 +8,8 @@ function draw() {
  
   strokeWeight(4);
   fill(255, 204, 0);
-  ellipse(windowWidth/3, windowHeight/2, 100, 55);
-  ellipse(windowWidth/2, windowHeight/3, 100, 55);
+  arc(50, 55, 50, 50, 0, HALF_PI);
+  noFill()
  
   strokeWeight(1);
   fill(255, 20, 0);
