@@ -47,6 +47,12 @@ function draw() {
  }
 
 
+beginShape();
+vertex(90)
+endShape();
+
+
+
  line(30, 20, 85, 75)
  stroke(30, 30, 45, 45)
 
