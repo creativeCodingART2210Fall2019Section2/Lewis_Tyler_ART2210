@@ -1,9 +1,7 @@
 
 
 {
-function setup(){
-    createCanvase(windowWidth,windowHeight);
-}
+
 
     margin: 0;
     padding: 0;
@@ -126,7 +124,5 @@ function setup(){
     to{
         transform: rotate(360deg);
     }
-function resizeCanvase(){
-    windowResized(windowWidth,windowHeight);
-}
+
 }
