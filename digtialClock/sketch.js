@@ -1,4 +1,10 @@
+
+
 {
+function setup(){
+    createCanvase(windowWidth,windowHeight);
+}
+
     margin: 0;
     padding: 0;
     border: 0;
