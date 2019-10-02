@@ -126,4 +126,7 @@ function setup(){
     to{
         transform: rotate(360deg);
     }
+function resizeCanvase(){
+    windowResized(windowWidth,windowHeight);
+}
 }
