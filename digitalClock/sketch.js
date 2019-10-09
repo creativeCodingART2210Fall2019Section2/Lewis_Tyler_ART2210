@@ -1,5 +1,8 @@
-/*Resetting defaults*/
-*{
+
+
+{
+
+
     margin: 0;
     padding: 0;
     border: 0;
@@ -121,4 +124,5 @@
     to{
         transform: rotate(360deg);
     }
+
 }
