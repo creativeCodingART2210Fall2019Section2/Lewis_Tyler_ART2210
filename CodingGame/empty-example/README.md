@@ -2,4 +2,4 @@
 
 Clock Project
 
-[codinggame](https://talewis98.github.io/Lewis_Tyler_ART2210/CodingGame/emptyexample/index.html)
+[codinggame](https://talewis98.github.io/Lewis_Tyler_ART2210/CodingGame/empty-example/index.html)
