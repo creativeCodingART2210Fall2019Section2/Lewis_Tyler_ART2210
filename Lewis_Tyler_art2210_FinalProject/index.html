@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="sketch.js"></script>
+
+  <style type="text/css">
+    #some_div
+    {
+      text-align: right;
+      position: absolute;
+      font-size: 30px;
+      padding: 48px 10px 10px 134px;
+    }
+    .centerDiv
+    { 
+      width:200px;
+      height:200px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -100px;
+    }
+  button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 12px 28px;
+}
+  </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>  
+
+  <div class="centerDiv">
+    <button id="start" onclick="show()">
+      Start
+    </button>
+    <div id="difficulty" hidden>
+      <button id="start" onclick="show1()">
+        Easy
+      </button>
+      <button id="start" onclick="show2()">
+        Medium
+      </button>
+      <button id="start" onclick="show3()">
+        Hard
+      </button>
+    </div>
+    </div>
+<div id="some_div"></div>
+
+ </body>
+
+<script type="text/javascript">    
+  function show()
+  {
+    document.getElementById('difficulty').style.display = "block";
+
+    document.getElementById('start').style.display = "none";
+  }
+  function show1()
+  {
+
+    document.getElementById('difficulty').style.display = "none";
+
+    myDiv1.show();
+
+    var timeLeft = 20;
+    var elem = document.getElementById('some_div');
+    var timerId = setInterval(countdown, 1000);
+
+    function countdown() {
+        if (timeLeft == -1) {
+            clearTimeout(timerId);
+            doSomething();
+        } else {
+            elem.innerHTML = 'Timer: ' + timeLeft + ' seconds remaining';
+            timeLeft--;
+        }
+    }
+
+
+  }
+function show2()
+  {
+
+    document.getElementById('difficulty').style.display = "none";
+    myDiv1.show();
+
+    var timeLeft = 15;
+    var elem = document.getElementById('some_div');
+    var timerId = setInterval(countdown, 1000);
+
+    function countdown() {
+        if (timeLeft == -1) {
+            clearTimeout(timerId);
+            doSomething();
+        } else {
+            elem.innerHTML = timeLeft + ' seconds remaining';
+            timeLeft--;
+        }
+    }
+  }
+  function show3()
+  {
+
+    document.getElementById('difficulty').style.display = "none";
+    myDiv1.show();
+
+    var timeLeft = 10;
+    var elem = document.getElementById('some_div');
+    var timerId = setInterval(countdown, 1000);
+
+    function countdown() {
+        if (timeLeft == -1) {
+            clearTimeout(timerId);
+            doSomething();
+        } else {
+            elem.innerHTML = timeLeft + ' seconds remaining';
+            timeLeft--;
+        }
+    }
+  }
+function doSomething() {
+  alert("Time Over");
+  location.reload();
+
+}
+</script>
+</html>
